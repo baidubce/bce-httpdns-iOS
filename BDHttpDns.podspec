@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     Baidu Cloud HTTP DNS SDK supoort iOS 8.0 and later,
   DESC
   s.author   =   'Baidu Cloud IN Team' 
-  s.source   =   { :git => 'https://github.com/xiaoLong1010/CocoaPodDemo.git', :tag => '#{s.version}'}
+  s.source   =   { :git => "https://github.com/xiaoLong1010/CocoaPodDemo.git", :tag => "#{s.version}"}
   s.vendored_frameworks = '1.2.0/BDHttpDns.framework'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
