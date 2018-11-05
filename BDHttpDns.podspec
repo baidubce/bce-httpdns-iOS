@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   DESC
   s.author   =   'Baidu Cloud IN Team' 
   s.source   =   { :git => "https://github.com/baidubce/bce-httpdns-iOS.git", :tag => "#{s.version}"}
-  s.vendored_frameworks = '1.2.0/BDHttpDns.framework'
+  s.vendored_frameworks = 'Framework/1.2.0/BDHttpDns.framework'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
