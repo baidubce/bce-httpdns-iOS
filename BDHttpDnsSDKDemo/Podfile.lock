@@ -1,0 +1,16 @@
+PODS:
+  - BDHttpDns (1.2.0)
+
+DEPENDENCIES:
+  - BDHttpDns (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BDHttpDns
+
+SPEC CHECKSUMS:
+  BDHttpDns: 8a984c79e1c827fd7bf40a126ed08397a16838b4
+
+PODFILE CHECKSUM: 3abe8cc242e2d4ffe39580a6e0768115e736af64
+
+COCOAPODS: 1.5.3

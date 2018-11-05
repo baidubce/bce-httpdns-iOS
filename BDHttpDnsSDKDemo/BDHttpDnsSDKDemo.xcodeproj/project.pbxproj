@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20171EE6219048A7001C06F9 /* libPods-BDHttpDnsSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20171EE5219048A7001C06F9 /* libPods-BDHttpDnsSDKDemo.a */; };
+		20332AA5215DDCFB009A21E4 /* CFHTTPSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 20332AA4215DDCFB009A21E4 /* CFHTTPSURLProtocol.m */; };
+		C6F499581F73EEBC00F89E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F499571F73EEBC00F89E3F /* main.m */; };
+		C6F4995B1F73EEBC00F89E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4995A1F73EEBC00F89E3F /* AppDelegate.m */; };
+		C6F4995E1F73EEBC00F89E3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4995D1F73EEBC00F89E3F /* ViewController.m */; };
+		C6F499611F73EEBC00F89E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F4995F1F73EEBC00F89E3F /* Main.storyboard */; };
+		C6F499631F73EEBC00F89E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F499621F73EEBC00F89E3F /* Assets.xcassets */; };
+		C6F499661F73EEBC00F89E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F499641F73EEBC00F89E3F /* LaunchScreen.storyboard */; };
+		C6F499711F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F499701F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.m */; };
+		C6F4997C1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4997B1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6F4996D1F73EEBC00F89E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F4994B1F73EEBC00F89E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F499521F73EEBC00F89E3F;
+			remoteInfo = BDHttpDnsSDKDemo;
+		};
+		C6F499781F73EEBC00F89E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F4994B1F73EEBC00F89E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F499521F73EEBC00F89E3F;
+			remoteInfo = BDHttpDnsSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20171EE5219048A7001C06F9 /* libPods-BDHttpDnsSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-BDHttpDnsSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20332AA3215DDCFB009A21E4 /* CFHTTPSURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFHTTPSURLProtocol.h; sourceTree = "<group>"; };
+		20332AA4215DDCFB009A21E4 /* CFHTTPSURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFHTTPSURLProtocol.m; sourceTree = "<group>"; };
+		20332AA6215E0D28009A21E4 /* BDHttpDns.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDHttpDns.framework; path = BDHttpDnsSDKDemo/BDHttpDns.framework; sourceTree = "<group>"; };
+		54007D7FA58B80AB2FAE9634 /* libPods-BDHttpDnsSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDHttpDnsSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F499531F73EEBC00F89E3F /* BDHttpDnsSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDHttpDnsSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F499571F73EEBC00F89E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6F499591F73EEBC00F89E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6F4995A1F73EEBC00F89E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6F4995C1F73EEBC00F89E3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6F4995D1F73EEBC00F89E3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6F499601F73EEBC00F89E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6F499621F73EEBC00F89E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F499651F73EEBC00F89E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F499671F73EEBC00F89E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F4996C1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDHttpDnsSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F499701F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDHttpDnsSDKDemoTests.m; sourceTree = "<group>"; };
+		C6F499721F73EEBC00F89E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F499771F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDHttpDnsSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F4997B1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDHttpDnsSDKDemoUITests.m; sourceTree = "<group>"; };
+		C6F4997D1F73EEBC00F89E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEC1463E098F1C4AF9DC1B9 /* Pods-BDHttpDnsSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDHttpDnsSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDHttpDnsSDKDemo/Pods-BDHttpDnsSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D34B54639C0CEFE1486DDEB6 /* Pods-BDHttpDnsSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDHttpDnsSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDHttpDnsSDKDemo/Pods-BDHttpDnsSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F499501F73EEBC00F89E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20171EE6219048A7001C06F9 /* libPods-BDHttpDnsSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F499691F73EEBC00F89E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F499741F73EEBC00F89E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3C6B91E69E0747D5B5B133B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D34B54639C0CEFE1486DDEB6 /* Pods-BDHttpDnsSDKDemo.debug.xcconfig */,
+				CBEC1463E098F1C4AF9DC1B9 /* Pods-BDHttpDnsSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6D1AC8F1FF293E1004521D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20171EE5219048A7001C06F9 /* libPods-BDHttpDnsSDKDemo.a */,
+				20332AA6215E0D28009A21E4 /* BDHttpDns.framework */,
+				54007D7FA58B80AB2FAE9634 /* libPods-BDHttpDnsSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6F4994A1F73EEBC00F89E3F = {
+			isa = PBXGroup;
+			children = (
+				C6F499551F73EEBC00F89E3F /* BDHttpDnsSDKDemo */,
+				C6F4996F1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests */,
+				C6F4997A1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests */,
+				C6F499541F73EEBC00F89E3F /* Products */,
+				C6D1AC8F1FF293E1004521D2 /* Frameworks */,
+				C3C6B91E69E0747D5B5B133B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F499541F73EEBC00F89E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F499531F73EEBC00F89E3F /* BDHttpDnsSDKDemo.app */,
+				C6F4996C1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.xctest */,
+				C6F499771F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6F499551F73EEBC00F89E3F /* BDHttpDnsSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6F499591F73EEBC00F89E3F /* AppDelegate.h */,
+				C6F4995A1F73EEBC00F89E3F /* AppDelegate.m */,
+				C6F4995C1F73EEBC00F89E3F /* ViewController.h */,
+				C6F4995D1F73EEBC00F89E3F /* ViewController.m */,
+				20332AA3215DDCFB009A21E4 /* CFHTTPSURLProtocol.h */,
+				20332AA4215DDCFB009A21E4 /* CFHTTPSURLProtocol.m */,
+				C6F4995F1F73EEBC00F89E3F /* Main.storyboard */,
+				C6F499621F73EEBC00F89E3F /* Assets.xcassets */,
+				C6F499641F73EEBC00F89E3F /* LaunchScreen.storyboard */,
+				C6F499671F73EEBC00F89E3F /* Info.plist */,
+				C6F499561F73EEBC00F89E3F /* Supporting Files */,
+			);
+			path = BDHttpDnsSDKDemo;
+			sourceTree = "<group>";
+		};
+		C6F499561F73EEBC00F89E3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6F499571F73EEBC00F89E3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6F4996F1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F499701F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.m */,
+				C6F499721F73EEBC00F89E3F /* Info.plist */,
+			);
+			path = BDHttpDnsSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		C6F4997A1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4997B1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.m */,
+				C6F4997D1F73EEBC00F89E3F /* Info.plist */,
+			);
+			path = BDHttpDnsSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F499521F73EEBC00F89E3F /* BDHttpDnsSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F499801F73EEBC00F89E3F /* Build configuration list for PBXNativeTarget "BDHttpDnsSDKDemo" */;
+			buildPhases = (
+				84AACEFD4E2EECDD50B57B17 /* [CP] Check Pods Manifest.lock */,
+				C6F4994F1F73EEBC00F89E3F /* Sources */,
+				C6F499501F73EEBC00F89E3F /* Frameworks */,
+				C6F499511F73EEBC00F89E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDHttpDnsSDKDemo;
+			productName = BDHttpDnsSDKDemo;
+			productReference = C6F499531F73EEBC00F89E3F /* BDHttpDnsSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6F4996B1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F499831F73EEBC00F89E3F /* Build configuration list for PBXNativeTarget "BDHttpDnsSDKDemoTests" */;
+			buildPhases = (
+				C6F499681F73EEBC00F89E3F /* Sources */,
+				C6F499691F73EEBC00F89E3F /* Frameworks */,
+				C6F4996A1F73EEBC00F89E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F4996E1F73EEBC00F89E3F /* PBXTargetDependency */,
+			);
+			name = BDHttpDnsSDKDemoTests;
+			productName = BDHttpDnsSDKDemoTests;
+			productReference = C6F4996C1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6F499761F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F499861F73EEBC00F89E3F /* Build configuration list for PBXNativeTarget "BDHttpDnsSDKDemoUITests" */;
+			buildPhases = (
+				C6F499731F73EEBC00F89E3F /* Sources */,
+				C6F499741F73EEBC00F89E3F /* Frameworks */,
+				C6F499751F73EEBC00F89E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F499791F73EEBC00F89E3F /* PBXTargetDependency */,
+			);
+			name = BDHttpDnsSDKDemoUITests;
+			productName = BDHttpDnsSDKDemoUITests;
+			productReference = C6F499771F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F4994B1F73EEBC00F89E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					C6F499521F73EEBC00F89E3F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C6F4996B1F73EEBC00F89E3F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6F499521F73EEBC00F89E3F;
+					};
+					C6F499761F73EEBC00F89E3F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6F499521F73EEBC00F89E3F;
+					};
+				};
+			};
+			buildConfigurationList = C6F4994E1F73EEBC00F89E3F /* Build configuration list for PBXProject "BDHttpDnsSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F4994A1F73EEBC00F89E3F;
+			productRefGroup = C6F499541F73EEBC00F89E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F499521F73EEBC00F89E3F /* BDHttpDnsSDKDemo */,
+				C6F4996B1F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests */,
+				C6F499761F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F499511F73EEBC00F89E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F499661F73EEBC00F89E3F /* LaunchScreen.storyboard in Resources */,
+				C6F499631F73EEBC00F89E3F /* Assets.xcassets in Resources */,
+				C6F499611F73EEBC00F89E3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F4996A1F73EEBC00F89E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F499751F73EEBC00F89E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84AACEFD4E2EECDD50B57B17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BDHttpDnsSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F4994F1F73EEBC00F89E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20332AA5215DDCFB009A21E4 /* CFHTTPSURLProtocol.m in Sources */,
+				C6F4995E1F73EEBC00F89E3F /* ViewController.m in Sources */,
+				C6F4995B1F73EEBC00F89E3F /* AppDelegate.m in Sources */,
+				C6F499581F73EEBC00F89E3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F499681F73EEBC00F89E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F499711F73EEBC00F89E3F /* BDHttpDnsSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F499731F73EEBC00F89E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F4997C1F73EEBC00F89E3F /* BDHttpDnsSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6F4996E1F73EEBC00F89E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F499521F73EEBC00F89E3F /* BDHttpDnsSDKDemo */;
+			targetProxy = C6F4996D1F73EEBC00F89E3F /* PBXContainerItemProxy */;
+		};
+		C6F499791F73EEBC00F89E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F499521F73EEBC00F89E3F /* BDHttpDnsSDKDemo */;
+			targetProxy = C6F499781F73EEBC00F89E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6F4995F1F73EEBC00F89E3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F499601F73EEBC00F89E3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6F499641F73EEBC00F89E3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F499651F73EEBC00F89E3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6F4997E1F73EEBC00F89E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-fprofile-instr-generate";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_LDFLAGS = "-fprofile-instr-generate";
+			};
+			name = Debug;
+		};
+		C6F4997F1F73EEBC00F89E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-fprofile-instr-generate";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WARNING_LDFLAGS = "-fprofile-instr-generate";
+			};
+			name = Release;
+		};
+		C6F499811F73EEBC00F89E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34B54639C0CEFE1486DDEB6 /* Pods-BDHttpDnsSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BDHttpDnsSDKDemo",
+				);
+				INFOPLIST_FILE = BDHttpDnsSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BDHttpDnsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6F499821F73EEBC00F89E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEC1463E098F1C4AF9DC1B9 /* Pods-BDHttpDnsSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BDHttpDnsSDKDemo",
+				);
+				INFOPLIST_FILE = BDHttpDnsSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BDHttpDnsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6F499841F73EEBC00F89E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BDHttpDnsSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BDHttpDnsSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDHttpDnsSDKDemo.app/BDHttpDnsSDKDemo";
+			};
+			name = Debug;
+		};
+		C6F499851F73EEBC00F89E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BDHttpDnsSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BDHttpDnsSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDHttpDnsSDKDemo.app/BDHttpDnsSDKDemo";
+			};
+			name = Release;
+		};
+		C6F499871F73EEBC00F89E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDHttpDnsSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BDHttpDnsSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDHttpDnsSDKDemo;
+			};
+			name = Debug;
+		};
+		C6F499881F73EEBC00F89E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDHttpDnsSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BDHttpDnsSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDHttpDnsSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F4994E1F73EEBC00F89E3F /* Build configuration list for PBXProject "BDHttpDnsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F4997E1F73EEBC00F89E3F /* Debug */,
+				C6F4997F1F73EEBC00F89E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F499801F73EEBC00F89E3F /* Build configuration list for PBXNativeTarget "BDHttpDnsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F499811F73EEBC00F89E3F /* Debug */,
+				C6F499821F73EEBC00F89E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F499831F73EEBC00F89E3F /* Build configuration list for PBXNativeTarget "BDHttpDnsSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F499841F73EEBC00F89E3F /* Debug */,
+				C6F499851F73EEBC00F89E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F499861F73EEBC00F89E3F /* Build configuration list for PBXNativeTarget "BDHttpDnsSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F499871F73EEBC00F89E3F /* Debug */,
+				C6F499881F73EEBC00F89E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6F4994B1F73EEBC00F89E3F /* Project object */;
+}
